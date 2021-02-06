@@ -1,4 +1,5 @@
 import "phaser";
+import food from "/assets/games/snake/food.png";
 
 var config = {
   type: Phaser.WEBGL,
@@ -26,8 +27,14 @@ var RIGHT = 3;
 var game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image("food", "assets/games/snake/food.png");
-  this.load.image("body", "assets/games/snake/body.png");
+  this.load.image(
+    "food",
+    "https://raw.githubusercontent.com/codigosincero/gameSnake/master/assets/games/snake/food.png"
+  );
+  this.load.image(
+    "body",
+    "https://raw.githubusercontent.com/codigosincero/gameSnake/master/assets/games/snake/body.png"
+  );
 }
 
 function create() {

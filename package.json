@@ -2,7 +2,11 @@
   "name": "js",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -s -o"
+    },
   "dependencies": {
-        "phaser": "^3.52.0"
+        "phaser": "^3.52.0",
+        "http-server": "^0.12.3"
   }
 }
