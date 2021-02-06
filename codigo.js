@@ -1,5 +1,4 @@
 import "phaser";
-import food from "/assets/games/snake/food.png";
 
 var config = {
   type: Phaser.WEBGL,
